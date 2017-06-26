@@ -23,22 +23,10 @@ module.exports = {
           presets: ["react", "es2015"]
         }
       },
-      {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        loaders: [
-            'file-loader?hash=sha512&digest=hex&name=[hash].[ext]',
-            'image-webpack-loader?bypassOnDebug&optimizationLevel=7&interlaced=false'
-        ]
-    },
-    {
-  test: /\.(jpg|png|svg)$/,
-  loader: 'url-loader',
-  options: {
-    limit: 25000,
-  },
+      ]
 }, 
-    ]
-  },
+    
+
   // This lets us debug our react code in chrome dev tools. Errors will have lines and file names
   // Without this the console says all errors are coming from just coming from bundle.js
   devtool: "eval-source-map"
