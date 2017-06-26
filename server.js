@@ -12,6 +12,15 @@ var app = express();
 // Sets an initial port. We'll use this later in our listener
 var PORT = process.env.PORT || 3000;
 
+var databaseUrl = 'mongodb://localhost/myportfolio';
+
+if(process.env.MONGODB_URI){
+
+	mongoose.connect(process.env.MONGODB_URI)
+
+}else{
+	mongoose.connect(databaseUrl);
+}
 
 mongoose.connect("mongodb://localhost/myportfolio");
 var db = mongoose.connection;
@@ -30,7 +39,7 @@ app.get("/", function(req, res) {
 // Run Morgan for Logging
 app.use(logger("dev"));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
