@@ -51,7 +51,7 @@ constructor(props){
 onSubmit(event){
 console.log('im clicked');
 console.log(this.state.count)
-if(this.state.count < 5){
+if(this.state.count < this.state.images.length){
 	var n = this.state.count + 1;
 	this.setState({
 		currentimage: this.state.images[n].image,
