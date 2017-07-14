@@ -30,6 +30,11 @@ constructor(props){
 		image: 'https://files.slack.com/files-tmb/T3EQU9YN8-F603NFPPH-a0428b7148/petfinder_720.png',
 		name: 'RCB Pet Adoption Website',
 		link: "https://secure-reaches-39913.herokuapp.com/"
+		},
+		{
+		image: 'https://files.slack.com/files-pri/T3EQU9YN8-F68M2ARC1/halloweenhangman.png',
+		name: "Halloween Hangman",
+		link: "https://vast-meadow-87935.herokuapp.com/"	
 		}
 	],
 	currentimage: "https://files.slack.com/files-tmb/T3EQU9YN8-F5Z9YM736-7a29ea7126/animaltrivia_720.png",

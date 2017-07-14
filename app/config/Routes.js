@@ -14,6 +14,7 @@ const Footer = require('./../components/children/Footer');
 class Routes extends React.Component {
 	render(){
 		return (
+				
 				<Router>
 				<div className="fluid-container">
 				<Header />
