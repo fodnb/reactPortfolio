@@ -12,32 +12,32 @@ constructor(props){
 		link: "https://nameless-wildwood-93811.herokuapp.com/" 
 		},
 		{
-		image: "https://files.slack.com/files-tmb/T3EQU9YN8-F5ZB9K4HK-016b0778e7/crystalcollector_720.png",
+		image: "http://imgur.com/d9dfxlY",
 		name: "Crystal Collector Game",
 		link: "https://boiling-hamlet-40831.herokuapp.com/"
 		},
 		{
-		image: "https://files.slack.com/files-tmb/T3EQU9YN8-F5Z6B6V8T-00b0c816c0/giphyapp_720.png",
+		image: "http://imgur.com/Eqjh8BN",
 		name: 'Giphy Finder',
 		link: 'https://afternoon-hollows-99543.herokuapp.com/'
 		},
 		{
-		image: 'https://files.slack.com/files-tmb/T3EQU9YN8-F5ZBFN9FX-b0bba8df89/buildyouralliance_1024.png',
+		image: 'http://imgur.com/d0Er43i',
 		name: 'Star Wars Friend Finder',
 		link: 'https://fierce-beyond-18320.herokuapp.com/'	
 		},
 		{
-		image: 'https://files.slack.com/files-tmb/T3EQU9YN8-F603NFPPH-a0428b7148/petfinder_720.png',
+		image: 'http://imgur.com/QDZTSZb',
 		name: 'RCB Pet Adoption Website',
 		link: "https://secure-reaches-39913.herokuapp.com/"
 		},
 		{
-		image: 'https://files.slack.com/files-pri/T3EQU9YN8-F68M2ARC1/halloweenhangman.png',
+		image: 'http://imgur.com/zhog0O4',
 		name: "Halloween Hangman",
 		link: "https://vast-meadow-87935.herokuapp.com/"	
 		}
 	],
-	currentimage: "https://files.slack.com/files-tmb/T3EQU9YN8-F5Z9YM736-7a29ea7126/animaltrivia_720.png",
+	currentimage: "http://imgur.com/N7Xi8ps",
 	currentname: "Animal Trivia Game",
 	currentlink: "https://nameless-wildwood-93811.herokuapp.com/",
 	count: 0
