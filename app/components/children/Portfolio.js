@@ -7,7 +7,7 @@ constructor(props){
 	this.state = {
 		images: [
 		{
-		image: "https://files.slack.com/files-tmb/T3EQU9YN8-F5Z9YM736-7a29ea7126/animaltrivia_720.png",
+		image: "http://imgur.com/N7Xi8ps",
 		name: "Animal Trivia Game",
 		link: "https://nameless-wildwood-93811.herokuapp.com/" 
 		},
