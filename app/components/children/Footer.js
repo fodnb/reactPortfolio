@@ -12,11 +12,10 @@ constructor(props){
 
 render(){
 			return (
-					  <div id="footer">
 					    <div className="container">
 					      <p className="footer-block">&copy; Daniel McGhee 2017</p>
 					    </div>
-					  </div>
+					  
 					)
 }
 

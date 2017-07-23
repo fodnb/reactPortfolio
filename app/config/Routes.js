@@ -18,7 +18,6 @@ class Routes extends React.Component {
 				<Router>
 				<div className="fluid-container">
 				<Header />
-
 				<Nav/>
 				
 				<Switch>
@@ -26,8 +25,9 @@ class Routes extends React.Component {
 					<Route path='/contact' component={Contact}/>
 					<Route path='/portfolio' component={Portfolio}/>
  				</Switch>
-				
+				<div id="footer">
  				<Footer />
+ 				</div>
 				</div>
 				
 				</Router>	
