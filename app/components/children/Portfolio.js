@@ -76,7 +76,7 @@ console.log(this.state.currentname);
 
     render() {
         return (
-			<div className="fluid-container">
+			<div className="container">
 			<div className="row">
 
 				<div className="col-sm-3">
