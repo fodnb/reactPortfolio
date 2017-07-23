@@ -7,37 +7,37 @@ constructor(props){
 	this.state = {
 		images: [
 		{
-		image: "http://imgur.com/N7Xi8ps",
+		image: "http://i.imgur.com/N7Xi8ps.png",
 		name: "Animal Trivia Game",
 		link: "https://nameless-wildwood-93811.herokuapp.com/" 
 		},
 		{
-		image: "http://imgur.com/d9dfxlY",
+		image: "http://i.imgur.com/d9dfxlY.png",
 		name: "Crystal Collector Game",
 		link: "https://boiling-hamlet-40831.herokuapp.com/"
 		},
 		{
-		image: "http://imgur.com/Eqjh8BN",
+		image: "http://i.imgur.com/Eqjh8BN.png",
 		name: 'Giphy Finder',
 		link: 'https://afternoon-hollows-99543.herokuapp.com/'
 		},
 		{
-		image: 'http://imgur.com/d0Er43i',
+		image: 'http://i.imgur.com/d0Er43i.png',
 		name: 'Star Wars Friend Finder',
 		link: 'https://fierce-beyond-18320.herokuapp.com/'	
 		},
 		{
-		image: 'http://imgur.com/QDZTSZb',
+		image: 'http://i.imgur.com/QDZTSZb.png',
 		name: 'RCB Pet Adoption Website',
 		link: "https://secure-reaches-39913.herokuapp.com/"
 		},
 		{
-		image: 'http://imgur.com/zhog0O4',
+		image: 'http://i.imgur.com/zhog0O4.png',
 		name: "Halloween Hangman",
 		link: "https://vast-meadow-87935.herokuapp.com/"	
 		}
 	],
-	currentimage: "http://imgur.com/N7Xi8ps",
+	currentimage: "http://i.imgur.com/N7Xi8ps.png",
 	currentname: "Animal Trivia Game",
 	currentlink: "https://nameless-wildwood-93811.herokuapp.com/",
 	count: 0
