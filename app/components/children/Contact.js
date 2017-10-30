@@ -1,4 +1,4 @@
-dconst React = require('react');
+const React = require('react');
 const helpers = require('./../utils/helpers.js');
 
 class Contact extends React.Component {
