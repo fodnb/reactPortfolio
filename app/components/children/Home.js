@@ -25,7 +25,7 @@ render(){
 
 			<div className="col-sm-6" id="home">
 			<h2 id="h2about"><span id="homespan">A Journey to Take!</span></h2>
-			<img className="myPhoto" src='http://i.imgur.com/qthzDfS.jpg' alt="myphoto"/>
+			<img className="myPhoto" src='https://imgur.com/zikXAIv' alt="myphoto"/>
 			<section>
 				<p id="homep"> Hello World...!! Web Development is my passion and I love that I always have a lot to learn. One thing I've learned is that problem solving is at the core of this creative domain and I enjoy piecing the puzzles together.  I'm looking forward to the troubles of breaking down the barriers in my own skillset and proving that I have what it takes.</p>
 
