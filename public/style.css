@@ -45,11 +45,7 @@ tangerine #F19F4D
     color: #4484CE;
 }
 
-#homep {
-    /*clear: all;*/
-    
-    /*overflow: auto;*/
-}
+
 
 .myPhoto {
     float: left;
@@ -107,18 +103,13 @@ a:hover {
 body {
     max-width: 100%;
     margin: 0 auto;
-    background-image: url('images/wet_snow_@2x.png');
+    background-image: url('images/wet_snow.png');
     font-family: 'arial', 'helvetica neue', helvetica, sans-serif;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
-* {
-    /*box-sizing: border-box;*/
-}
-
 
 /*///////////////////      HEADER      ///////////////////////*/
 
@@ -240,7 +231,7 @@ p {
     text-align: center;
 }
 
-=
+
 /*///////////////////            ///////////////////////*/
 
 
